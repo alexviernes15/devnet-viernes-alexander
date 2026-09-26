@@ -21,7 +21,8 @@ def add_movie(movie_list):
 pass
 
     def view_movies(movie_list):
-   
+   movie_list = [add_movie]
+   for x in movie_list:
 pass
 
 def count_watched_unwatched(movie_list):
